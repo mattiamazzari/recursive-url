@@ -1,10 +1,10 @@
 {
-    "name": "My plugin",
+    "name": "RecURLsive",
     "version": "0.0.1",
-    "description": "Description of my_plugin.",
-    "author_name": "Me",
-    "author_url": "https://mywebsite.me",
-    "plugin_url": "https://github.com/my_name/my_plugin",
-    "tags": "cat, template, example",
+    "description": "A custom parser for recursive URLs using BeautifulSoup.",
+    "author_name": "mattiamazzari",
+    "author_url": "https://github.com/mattiamazzari",
+    "plugin_url": "https://github.com/mattiamazzari/recursive-url",
+    "tags": "cat, parser, recursive, url, beautifulsoup",
     "thumb": "https://raw.githubusercontent.com/my_repo_path/my_plugin.png"
 }
