@@ -32,7 +32,7 @@ if __name__ == "__main__":
 
     snake_name = "_".join(repo_name.lower().split(" "))
 
-    os.rename("my_plugin.py", f"{snake_name}.py")
+    os.rename("recursive_url_parser.py", f"{snake_name}.py")
 
     # Pipeline file's line ranges to remove
     # This must reflect eventual main.yml changes
