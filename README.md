@@ -1,6 +1,6 @@
 # RecURLsive
 
-This plugin implements a custom parser that allows to recursively download all the URLs in a given webpage.
+This plugin implements a custom parser for Cheshire Cat AI that allows to recursively download all the URLs in a given webpage.
 A web page might have many interesting child pages that we may want to read in bulk.
 The challenge is traversing the tree of child pages and actually assembling that list.
 and we do this using the RecursiveUrlLoader provided by Langchain.
