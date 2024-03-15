@@ -17,10 +17,10 @@ def update_variables(settings):
     chunk_size = settings["chunk_size"]
     chunk_overlap = settings["chunk_overlap"]
     recursive = settings["recursive"]
-    option["exclude_dirs"] = settings["option_exclude_dirs"]
-    option["max_depth"] = settings["option_max_depth"]
-    option["timeout"] = settings["option_timeout"]
-    option["prevent_outside"] = settings["option_prevent_outside"]
+    option["exclude_dirs"] = settings["exclude_dirs"]
+    option["max_depth"] = settings["max_depth"]
+    option["timeout"] = settings["timeout"]
+    option["prevent_outside"] = settings["prevent_outside"]
     
 @hook(priority=10)
 def before_cat_reads_message(user_message_json, cat):
