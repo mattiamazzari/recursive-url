@@ -1,12 +1,8 @@
 # RecURLsive
 
-This plugin implements a custom parser that allows to recursively download all the URLs in a given webpage.
-A web page might have many interesting child pages that we may want to read in bulk.
-The challenge is traversing the tree of child pages and actually assembling that list.
-and we do this using the RecursiveUrlLoader provided by Langchain.
-
-This also gives us the flexibility to exclude some children, customize the extractor, and more.
+This plugin implements a custom parser that allows to recursively scrape all the URLs in a given webpage.
+This also gives the flexibility to define some keywords to implement a filter on the considered pages, max_depth, and timeout.
 ## Usage
 
-1. Specify the URL of the webpage you want to download recursively.
-2. Specify the depth of the recursion.
+1. Specify in the plugin settings the keywords of the pages included in the filter, the depth of the recursion and a timeout.
+2. Specify the URL of the webpage you want to download recursively by selecting "Upload a url".
